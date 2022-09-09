@@ -1,12 +1,9 @@
 #include <stdio.h>
-/** 
- * main- Print size of various types
+/**
+ * main - Print size of datatypes
  *
- * Description: prints the size of various types on the computer it is compiled
- *
- * Return: Always 0 (success)
- */
-
+ * Return: 0
+ * **/
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
@@ -18,5 +15,5 @@ int main(void)
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
 
 	printf("Size of a float: %zu byte(s)\n", sizeof(float));
-	return(0);
+	return (0);
 }
