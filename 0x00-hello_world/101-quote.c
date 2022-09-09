@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main -Entry point
- *
+ * Description: Prints strings
  * Result: 1
  */	
 int main(void)
