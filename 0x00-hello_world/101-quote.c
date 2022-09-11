@@ -2,10 +2,9 @@
 #include <unistd.h>
 /**
  * main - prints to string
- *
  * Description: Prints "and that piece of art is useful.." without puts
  *
- * Result: Always return 1
+ * Return: 1
  */
 int main(void)
 {
