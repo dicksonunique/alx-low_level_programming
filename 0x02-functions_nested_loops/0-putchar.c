@@ -12,8 +12,9 @@ int main(void)
 	_putchar('E');
 	_putchar('M');
 	_putchar('D');
-	_putchar('i');
-	_putchar('c');
+	_putchar('I');
+	_putchar('C');
+	_putchar('k');
 	_putchar('\n');
 	return (0);
 }
