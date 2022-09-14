@@ -11,6 +11,9 @@ int main(void)
 	_putchar('W');
 	_putchar('E');
 	_putchar('M');
+	_putchar('D');
+	_putchar('i');
+	_putchar('c')
 	_putchar('\n');
 	return (0);
 }
