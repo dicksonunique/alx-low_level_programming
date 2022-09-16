@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * add - Function for adding two integers
  * Return: sum of p and q
  */
