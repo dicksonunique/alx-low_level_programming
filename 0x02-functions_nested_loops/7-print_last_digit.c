@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - print laas digit of any number
- * @int : Enter integer
+ * @n : Enter integer
  *
  * Return: Integer
  */
