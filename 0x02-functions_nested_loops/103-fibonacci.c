@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int term1 = 0, term2 = 1, next, i = 0;
+	int term1 = 0, sum = 0, term2 = 1, next, i = 0;
 
 	while ( i < 4000000)
 	{
@@ -15,11 +15,11 @@ int main(void)
 		term2 = next;
 		if (next % 2 == 0)
 		{
-			printf("%d\n", next);
+			sum = sum + next;
 			i++;
-		}
-		
+		}	
 	}
+	printf("%d\n", sum);
 	return (0);
 }
 
