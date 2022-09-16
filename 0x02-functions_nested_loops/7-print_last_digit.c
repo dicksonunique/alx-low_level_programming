@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_last_digit - print laat digit of numbers
+ * print_last_digit - print laas digit of any number
  * @int : Enter integer
  *
  * Return: Integer
