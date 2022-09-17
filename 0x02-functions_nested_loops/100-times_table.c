@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_times_table - Print n times table from 0
  * @n: enter a number
@@ -15,7 +15,7 @@ void print_times_table(int n)
 			for (b = 0; b <= n; b++)
 			{
 				c = a * b;
-				if ( b == 0)
+				if (b == 0)
 				{
 					_putchar(c + '0');
 				}
