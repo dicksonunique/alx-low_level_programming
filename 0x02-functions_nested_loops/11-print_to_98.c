@@ -22,6 +22,6 @@ void print_to_98(int n)
 			n++;
 		}
 	}
-	print("\n");
+	printf("\n");
 
 }
