@@ -15,7 +15,7 @@ int main(void)
 		{
 			k = k + j;
 		}
-		j++
+		j++;
 	}
 	printf("%d\n", k);
 	return (0);
