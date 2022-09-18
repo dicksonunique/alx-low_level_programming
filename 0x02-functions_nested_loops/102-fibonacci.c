@@ -18,11 +18,12 @@ int main(void)
 		term2 = next_term;
 		if (i == 49)
 		{
-			prinf("\n");
+			printf("\n");
 		}
 		else
 		{
 			printf(", ");
 		}
 	return (0);
+	}
 }
