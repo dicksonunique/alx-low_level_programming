@@ -12,6 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 50; i++)
 	{
+		next_term = term1 + term2;
 		if (i == 0)
 		{
 			printf("%d", term1);
@@ -22,11 +23,10 @@ int main(void)
 		}
 		else
 		{
-			next_term = term1 + term2;
-			term1 = term2;
+			term1 = term2
 			term2 = next_term;
-			next_term = term1 + term2;
 			printf(", %d", next_term);
+
 		}
 	}
 	printf("\n");
