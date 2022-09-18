@@ -13,23 +13,16 @@ int main(void)
 	for (i = 0; i <= 50; i++)
 	{
 		next_term = term1 + term2;
-		if (i == 0)
+		printf("%d", next_term);
+		term1 = term2;
+		term2 = next_term;
+		if (i == 49)
 		{
-			printf("%d", term1);
-		}
-		else if (i == 1)
-		{
-			printf(", %d", term2);
+			prinf("\n");
 		}
 		else
 		{
-			term1 = term2;
-			term2 = next_term;
-			next_term = term1 + term2;
-			printf(", %d", next_term);
-
+			printf(", ");
 		}
-	}
-	printf("\n");
 	return (0);
 }
