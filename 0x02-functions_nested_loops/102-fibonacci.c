@@ -8,14 +8,13 @@
 int main(void)
 {
 	int term1 = 1, term2 = 2;
-	
 	int i, next_term;
 
-	for ( i = 0; i <= 50; i++)
+	for (i = 0; i <= 50; i++)
 	{
 		if (i == 0)
 		{
-			printf("%d\n", term1);
+			printf("%d", term1);
 		}
 		else if (i == 1)
 		{
