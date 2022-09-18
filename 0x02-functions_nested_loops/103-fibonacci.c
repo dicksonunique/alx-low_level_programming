@@ -8,7 +8,7 @@ int main(void)
 {
 	int term1 = 0, sum = 0, term2 = 1, next, i = 0;
 
-	while ( i < 4000000)
+	while (next < 4000000)
 	{
 		next = term1 + term2;
 		term1 = term2;
@@ -17,11 +17,8 @@ int main(void)
 		{
 			sum = sum + next;
 			i++;
-		}	
+		}
 	}
 	printf("%d\n", sum);
 	return (0);
 }
-
-
-
