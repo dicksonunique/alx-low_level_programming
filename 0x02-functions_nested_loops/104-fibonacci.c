@@ -6,8 +6,7 @@
 int main(void)
 {
 	unsigned long a , b , c;
-
-	int i;
+	int i = 2;
 
 	a = 1;
 	b = 2;
@@ -15,7 +14,7 @@ int main(void)
 	printf("%lu, ", a);
 	printf("%lu, ", b);
 
-	while(i < 98)
+	while (i < 98)
 	{
 		i++;
 		printf("%lu", c);
@@ -24,7 +23,7 @@ int main(void)
 		b = c;
 		c = a + b;
 
-		if ( i < 98)
+		if (i < 98)
 		{
 			printf(", ");
 		}
