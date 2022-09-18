@@ -23,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-			term1 = term2
+			term1 = term2;
 			term2 = next_term;
 			printf(", %d", next_term);
 
