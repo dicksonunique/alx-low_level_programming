@@ -10,7 +10,7 @@ int main(void)
 	unsigned long term1 = 0, term2 = 1, next_term;
 	int i;
 
-	for (i = 0; i <= 50; i++)
+	for (i = 0; i <= 49; i++)
 	{
 		next_term = term1 + term2;
 		printf("%lu", next_term);
