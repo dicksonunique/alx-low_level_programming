@@ -25,7 +25,7 @@ int main(void)
 		{
 			term1 = term2;
 			term2 = next_term;
-			next_term = term 1 + term2;
+			next_term = term1 + term2;
 			printf(", %d", next_term);
 
 		}
