@@ -10,7 +10,7 @@ int main(void)
 
 	while ( i < 4000000)
 	{
-		next = term1 +terms2;
+		next = term1 + term2;
 		term1 = term2;
 		term2 = next;
 		if (next % 2 == 0)
