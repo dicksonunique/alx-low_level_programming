@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long term1 = 1, term2 = 2, next_term;
+	unsigned long term1 = 0, term2 = 1, next_term;
 	int i;
 
 	for (i = 0; i <= 50; i++)
