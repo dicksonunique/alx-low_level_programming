@@ -9,7 +9,7 @@ int main(void)
 	int i = 2;
 
 	a = 1;
-	b = 2;
+	b = a + 1;
 	c = a + b;
 	printf("%lu, ", a);
 	printf("%lu, ", b);
