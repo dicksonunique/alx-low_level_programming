@@ -5,19 +5,19 @@
  */
 int main(void)
 {
-	unsigned long a, b, c;
+	float a, b, c;
 	int i = 2;
 
 	a = 1;
 	b = a + 1;
 	c = a + b;
-	printf("%lu, ", a);
-	printf("%lu, ", b);
+	printf("%.0f, ", a);
+	printf("%.0f, ", b);
 
 	while (i < 98)
 	{
 		i++;
-		printf("%lu", c);
+		printf("%.0f", c);
 
 		a = b;
 		b = c;
