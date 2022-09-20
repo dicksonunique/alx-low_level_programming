@@ -1,4 +1,4 @@
-#include "maim.h"
+#include "main.h"
 /**
  * print_array - printing N array
  * @a: pointer to the array
