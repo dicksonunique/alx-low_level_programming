@@ -14,7 +14,7 @@ int main(void)
 	s = 0;
 	srand(time(NULL));
 
-	for (i = 0; i < 100; i++)
+	for (i = 0; i < 110; i++)
 	{
 		p[i] = rand() % 88;
 		s = s + (p[i] + '0');
