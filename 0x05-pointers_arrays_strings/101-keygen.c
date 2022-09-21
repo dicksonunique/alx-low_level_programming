@@ -20,7 +20,7 @@ int main(void)
 	i = i + rp;
 	printf("%c", i);
 	}
-	printf("%c\n", 2772 - i);
+	printf("%c\n", (2772 - i));
 	return (0);
 }
 
