@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int p[100];
+	int p[110];
 	int i, s, j;
 
 	s = 0;
@@ -16,10 +16,10 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		p[i] = rand() % 78;
+		p[i] = rand() % 88;
 		s = s + (p[i] + '0');
 		putchar(p[i] + '0');
-		if ((2772 - s) - '0' < 78)
+		if ((2772 - s) - '0' < 88)
 		{
 			j = 2772 - s - '0';
 			s= s + j;
