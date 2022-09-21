@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * main - Get random password
+ * main - Generate keygens
  *
- * Return _ Always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -23,6 +23,7 @@ int main(void)
 		printf("%c", i);
 
 	}
+	printf("%c\n", 2772 - c);
 	return (0);
 }
 
