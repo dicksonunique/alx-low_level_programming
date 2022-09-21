@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int rt = 0, i = 0;
+	int rp = 0, i = 0;
 	time_t t;
 
 	srand((unsigned int) time(&t));
@@ -23,7 +23,7 @@ int main(void)
 		printf("%c", i);
 
 	}
-	printf("%c\n", 2772 - c);
+	printf("%c\n", 2772 - i);
 	return (0);
 }
 
