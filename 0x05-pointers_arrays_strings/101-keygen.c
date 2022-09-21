@@ -8,20 +8,24 @@
  */
 int main(void)
 {
-	int rp = 0, i = 0;
-	time_t t;
+	int p[100];
+	int i, s, j;
 
-	srand((unsigned int) time(&t));
-	while (i < 2772)
+	s = 0;
+	srand(time(NULL));
+
+	for (i = 0; i < 100; i++)
 	{
-	rp = rand() % 128;
-	if ((i + rp) > 2772)
-	break;
-	i = i + rp;
-	printf("%c", i);
+		p[i] = rand() % 78;
+		s = s + (p[i] + '0');
+		putchar(p[i] + '0');
+		if ((2772 - s) - '0' < 78)
+		{
+			j = 2772 - s - '0';
+			s= s + j;
+			putchar(j + '0');
+			break;
+		}
 	}
-	printf("%c\n", (2772 - i));
-	return (0);
+	return 0;
 }
-
-
