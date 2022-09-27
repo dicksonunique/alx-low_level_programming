@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _strchr - Locate a character sting
  * @s: The string
@@ -8,8 +9,6 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
-
 	while (*s)
 	{
 		if (*s == c)
