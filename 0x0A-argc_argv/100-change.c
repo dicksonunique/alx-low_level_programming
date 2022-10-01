@@ -10,7 +10,7 @@
  */
 int main(int argc, char  *argv[])
 {
-	int coins = 0;
+	int cent, coins = 0;
 
 	if (argc == 2)
 	{
@@ -19,7 +19,6 @@ int main(int argc, char  *argv[])
 			printf("0\n");
 			return (1);
 		}
-		int cent;
 
 		cent = atoi(argv[argc - 1]);
 
