@@ -10,11 +10,6 @@ size_t print_listint(const listint_t *h)
 {
 	size_t counter = 0;
 
-	if (h == NULL)
-	{
-		printf("The link is empty");
-		return (1);
-	}
 	while (h != NULL)
 	{
 		counter++;
