@@ -13,6 +13,7 @@ size_t print_listint(const listint_t *h)
 	if (h == NULL)
 	{
 		printf("The link is empty");
+		return (1);
 	}
 	while (h != NULL)
 	{
