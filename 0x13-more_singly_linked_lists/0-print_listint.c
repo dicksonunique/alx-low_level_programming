@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lish.h"
+#include "list.h"
 /**
 *print_listint - display all elements of a list
 *
