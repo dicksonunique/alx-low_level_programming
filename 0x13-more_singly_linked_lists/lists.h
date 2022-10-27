@@ -16,6 +16,7 @@ int _putchar(char c);
 typedef struct list_s
 {
 	char *str;
+	void *p;
 	unsigned int len;
 	struct list_s *next;
 } list_t;
