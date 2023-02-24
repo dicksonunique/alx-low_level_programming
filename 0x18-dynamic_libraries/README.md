@@ -1,2 +1,2 @@
-0x18. C - Dynamic librarie
-creating a dynamic librarys
+0x18. C - Dynamic libraries
+creating a dynamic library
